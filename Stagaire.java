@@ -1,8 +1,8 @@
- class Stagiare extends Emploiyer implements Prime {
+ class Stagaire extends Emploiyer implements Prime {
     private int dureeStage;
     static  int salair =1500;
 
-    public Stagiare(int id,String name,int age,double salairebase,int dureeStage ){
+    public Stagaire(int id,String name,int age,double salairebase,int dureeStage ){
       super(id, name, dureeStage, salairebase);
       this.dureeStage=dureeStage;
     }

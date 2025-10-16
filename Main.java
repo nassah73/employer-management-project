@@ -1,8 +1,17 @@
-public class Main {
+
+public class Main  {
     public static void main(String[]args){
-        Emploiyer ob=new Stagiare(55, "hassan", 20, 1500, 3);
-        System.out.println("salair: "+Stagiare.salair+"dhs");
-        ob.affichInfo();
+       // remove_employer_plien_temp
+       GesionEntreprise ob=new GesionEntreprise();
+    
+      ob.add_employer_plien_de_temp(new emploiyerPleinTemps(0, "hassan", 20, 30000, 10));
+      ob.add_employer_plien_de_temp(new emploiyerPleinTemps(1, "hamza", 20, 20000, 8));
+      
+   
+      ob.affich();
+      
+        
        
     }
+ 
 }
